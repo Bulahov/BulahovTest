@@ -1,0 +1,10 @@
+BulahovTestBundle_homepage:
+    pattern:  /dev/
+    defaults: { _controller: BulahovTestBundle:Default:index }
+BulahovTestBundle_contactpage:
+    pattern:  /dev/contact
+    defaults: { _controller: BulahovTestBundle:Contact:index }
+BulahovTestBundle_success:
+    pattern:  /dev/success
+    defaults: { _controller: BulahovTestBundle:Success:index }
+    

@@ -1,0 +1,11 @@
+{# src/Bulahov/TestBundle/Resources/views/Contact/index.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<h1>Связаться с Нами</h1>
+<div class='message'>{{ message }}</div>
+<form action="{{ path('BulahovTestBundle_contactpage') }} " method="post" {{ form_enctype(form) }} >
+{{ form_widget(form) }}
+<input type="submit" />
+</form>
+{% endblock %}
